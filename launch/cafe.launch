@@ -1,11 +1,54 @@
 
 <launch>
+  <arg name="playground" value = "ring_exp_v1.0" />
 
   <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_sfm_plugin)/media/models"/>
   <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find gazebo_sfm_plugin)/media/models"/>
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/cafe3.world"/>
+    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/world3.world"/>
   </include>
 
+	<include file="$(find scout_gazebo_sim)/launch/spawn_scout_v2.launch">
+        <arg name="x" value="3.0"/>
+        <arg name="y" value="3.0"/>
+        <arg name="z" value="1.25"/>
+        <arg name="yaw" value="180"/>
+	</include>
+
+  <include file="$(find people_velocity_tracker)/launch/tracked_detector.launch" />
+
+  <node pkg="semantic_map_manager" type="odom_utility" name="odom_utility_0" output="screen">
+    <param name="ego_id" type="int" value="0" />
+    <param name="vehicle_info_path" type="string" value="$(find playgrounds)/$(arg playground)/vehicle_set.json" />
+  </node>
+
+  <node pkg="semantic_map_manager" type="odom_tf_node" name="odom_tf_node_0" output="screen" >
+  	<rosparam file="$(find ai_agent_planner)/cfg/dynamicObs.yaml" command="load"/>
+    <param name="/agv_odomtf_node/odom_frame_name" type="string" value="map" />
+    <param name="/agv_odomtf_node/baselink_frame_name" type="string" value="base_link" />
+  </node>
+
+  <node name="line_extractor" pkg="laser_line_extraction" type="line_extraction_node">
+    <param name="~frequency" value="10.0" />
+    <param name="~frame_id" value="base_link" />
+    <param name="~scan_topic" value="scan" />
+    <param name="~publish_markers" value="true" />
+    <param name="~bearing_std_dev" value="1e-5" />
+    <param name="~range_std_dev" value="0.012" />
+    <param name="~least_sq_angle_thresh" value="0.0001" />
+    <param name="~least_sq_radius_thresh" value="0.0001" />
+    <param name="~max_line_gap" value="0.6" />
+    <param name="~min_line_length" value="0.4" />
+    <param name="~min_range" value="0.5" />
+    <param name="~max_range" value="250.0" />
+    <param name="~min_split_dist" value="0.04" />
+    <param name="~outlier_dist" value="0.06" />
+    <param name="~min_line_points" value="7" />
+  </node>
+  
+<!--    <rosparam file="$(find agv_main)/agv_path/path.yaml" command="load"/>
+ <node pkg="robot_control" type="MPC_obstacle_srv" name="MPC_obstacle_srv" output="screen">
+	       <remap from="mpc_predict_all" to="/vis/agent_0/minco/poly_traj"/>
+ </node> -->
 </launch>
