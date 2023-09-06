@@ -6,7 +6,7 @@
   <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find gazebo_sfm_plugin)/media/models"/>
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/world4_dense.world"/>
+    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/world3_static.world"/>
   </include>
 
 	<include file="$(find scout_gazebo_sim)/launch/spawn_scout_v2.launch">
