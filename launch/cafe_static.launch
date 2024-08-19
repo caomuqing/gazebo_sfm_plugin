@@ -6,7 +6,7 @@
   <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find gazebo_sfm_plugin)/media/models"/>
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/world3_static.world"/>
+    <arg name="world_name" value="$(find gazebo_sfm_plugin)/worlds/world_wall.world"/>
   </include>
 
 	<include file="$(find scout_gazebo_sim)/launch/spawn_scout_v2.launch">
@@ -19,6 +19,7 @@
   <include file="$(find people_velocity_tracker)/launch/tracked_detector.launch" />
 
   <node pkg="semantic_map_manager" type="odom_utility" name="odom_utility_0" output="screen">
+  	<rosparam file="$(find ai_agent_planner)/cfg/dynamicObs.yaml" command="load"/>
     <param name="ego_id" type="int" value="0" />
     <param name="vehicle_info_path" type="string" value="$(find playgrounds)/$(arg playground)/vehicle_set.json" />
     <rosparam file="$(find semantic_map_manager)/paths/path_iot.yaml" command="load"/>
