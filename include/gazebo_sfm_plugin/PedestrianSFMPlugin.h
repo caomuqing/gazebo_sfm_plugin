@@ -26,6 +26,8 @@
 #include <vector>
 #include <algorithm>
 
+#include <mutex>
+
 // Gazebo
 #include "gazebo/common/Plugin.hh"
 #include "gazebo/physics/physics.hh"
@@ -33,6 +35,10 @@
 
 // Social Force Model
 #include <lightsfm/sfm.hpp>
+
+//ros 
+#include <std_msgs/Float32MultiArray.h>
+#include <ros/ros.h>
 
 namespace gazebo
 {
@@ -68,6 +74,8 @@ private:
 private:
   void HandlePedestrians();
 
+public:
+  void reset_start_end(double start_x,double start_y,double end_x,double end_y);
 
  //-------------------------------------------------
 
@@ -123,6 +131,32 @@ private:
   /// \brief Custom trajectory info.
 private:
   physics::TrajectoryInfoPtr trajectoryInfo;
+
+private:
+  std::mutex mtx;
+
+private:
+  ros::NodeHandle rosNode; // Use the global ROS node handle
+  ros::Subscriber rosSub;  // ROS subscriber
+
+private:
+  void command_callback(const std_msgs::Float32MultiArray::ConstPtr& msg){
+    if (msg->data.size() < 4) {
+        ROS_WARN("Array size is less than 4 elements.");
+        return;
+    }
+    
+    float num1 = msg->data[0];
+    float num2 = msg->data[1];
+    float num3 = msg->data[2];
+    float num4 = msg->data[3];
+
+    ROS_INFO("num1: %f, num2: %f, num3: %f, num4: %f", num1, num2, num3, num4);
+
+    PedestrianSFMPlugin::reset_start_end(num1,num2,num3,num4);
+
+  }
+
 };
 }
 #endif

@@ -1,5 +1,7 @@
 
 <launch>
+  <!-- Enable simulation time -->
+  <param name="use_sim_time" value="true" />
   <arg name="playground" value = "ring_exp_v1.0" />
 
   <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_sfm_plugin)/media/models"/>

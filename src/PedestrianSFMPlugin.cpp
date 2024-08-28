@@ -22,6 +22,7 @@
 #include <stdio.h>
 #include <string>
 
+
 //#include <ignition/math.hh>
 //#include <ignition/math/gzmath.hh>
 #include <gazebo_sfm_plugin/PedestrianSFMPlugin.h>
@@ -42,6 +43,15 @@ void PedestrianSFMPlugin::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf) {
 
   this->sfmActor.id = this->actor->GetId();
 
+  // Get the actor's name
+  std::string actorName = actor->GetName();
+  // ROS node handle (uses the existing running ROS node)
+  this->rosNode = ros::NodeHandle();
+
+  // Subscribe to the specific ROS topic
+  this->rosSub = rosNode.subscribe("/"+actorName+"/reset_command", 1000, &PedestrianSFMPlugin::command_callback, this);
+
+  // printf("%s1111111111111111111111111111111111111111111111111111111111111", actorName.c_str());
   // std::string s = "scott>=tiger";
   // std::string delimiter = ">=";
   // std::string token = s.substr(0, s.find(delimiter));
@@ -174,6 +184,27 @@ void PedestrianSFMPlugin::Reset() {
     this->actor->SetCustomTrajectory(this->trajectoryInfo);
   }
 }
+/////////////////////////////////////////////////
+void PedestrianSFMPlugin::reset_start_end(double start_x,double start_y,double end_x,double end_y){
+  this->mtx.lock();
+  this->sfmActor.position.set(start_x,start_y);
+  // this->sfmActor.goals.clear();
+  sfm::Goal goal;
+  goal.center.set(start_x,start_y);
+  goal.radius=0.3;
+  this->sfmActor.goals.push_back(goal);
+  sfm::Goal end_p;
+  end_p.center.set(end_x,end_y);
+  end_p.radius=0.3;
+  this->sfmActor.goals.push_back(end_p);
+  this->sfmActor.goals.pop_front();
+  this->sfmActor.goals.pop_front();
+  // this->lastUpdate = 0;
+  this->mtx.unlock();
+}
+
+/////////////////////////////////////////////////
+
 
 /////////////////////////////////////////////////
 void PedestrianSFMPlugin::HandleObstacles() {
@@ -271,6 +302,7 @@ void PedestrianSFMPlugin::HandlePedestrians() {
 /////////////////////////////////////////////////
 void PedestrianSFMPlugin::OnUpdate(const common::UpdateInfo &_info) {
   // Time delta
+  this->mtx.lock();
   double dt = (_info.simTime - this->lastUpdate).Double();
 
   ignition::math::Pose3d actorPose = this->actor->WorldPose();
@@ -326,4 +358,6 @@ void PedestrianSFMPlugin::OnUpdate(const common::UpdateInfo &_info) {
   this->actor->SetScriptTime(this->actor->ScriptTime() +
                              (distanceTraveled * this->animationFactor));
   this->lastUpdate = _info.simTime;
+
+  this->mtx.unlock();
 }
