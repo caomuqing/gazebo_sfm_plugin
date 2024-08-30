@@ -1,0 +1,3307 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <model name="cube_1">
+      <static>true</static>
+      <pose>3 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_2">
+      <static>true</static>
+      <pose>4 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_3">
+      <static>true</static>
+      <pose>5 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_4">
+      <static>true</static>
+      <pose>6 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_5">
+      <static>true</static>
+      <pose>7 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_6">
+      <static>true</static>
+      <pose>8 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_7">
+      <static>true</static>
+      <pose>9 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_8">
+      <static>true</static>
+      <pose>10 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_9">
+      <static>true</static>
+      <pose>11 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_10">
+      <static>true</static>
+      <pose>12 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_11">
+      <static>true</static>
+      <pose>13 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_12">
+      <static>true</static>
+      <pose>13 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_13">
+      <static>true</static>
+      <pose>13 2 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_14">
+      <static>true</static>
+      <pose>13 1 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_15">
+      <static>true</static>
+      <pose>13 0 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_16">
+      <static>true</static>
+      <pose>13 -1 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_17">
+      <static>true</static>
+      <pose>13 -2 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_18">
+      <static>true</static>
+      <pose>13 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_19">
+      <static>true</static>
+      <pose>13 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_20">
+      <static>true</static>
+      <pose>12 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_21">
+      <static>true</static>
+      <pose>11 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_22">
+      <static>true</static>
+      <pose>10 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_23">
+      <static>true</static>
+      <pose>9 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_24">
+      <static>true</static>
+      <pose>8 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_25">
+      <static>true</static>
+      <pose>7 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_26">
+      <static>true</static>
+      <pose>6 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_27">
+      <static>true</static>
+      <pose>5 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_28">
+      <static>true</static>
+      <pose>4 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_29">
+      <static>true</static>
+      <pose>3 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_30">
+      <static>true</static>
+      <pose>3 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_31">
+      <static>true</static>
+      <pose>3 -4 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_32">
+      <static>true</static>
+      <pose>3 -5 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_33">
+      <static>true</static>
+      <pose>3 -6 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_34">
+      <static>true</static>
+      <pose>3 -7 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_35">
+      <static>true</static>
+      <pose>3 -8 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_36">
+      <static>true</static>
+      <pose>3 -9 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_37">
+      <static>true</static>
+      <pose>3 -10 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_38">
+      <static>true</static>
+      <pose>3 -11 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_39">
+      <static>true</static>
+      <pose>3 -12 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_40">
+      <static>true</static>
+      <pose>3 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_41">
+      <static>true</static>
+      <pose>3 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_42">
+      <static>true</static>
+      <pose>2 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_43">
+      <static>true</static>
+      <pose>1 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_44">
+      <static>true</static>
+      <pose>0 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_45">
+      <static>true</static>
+      <pose>-1 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_46">
+      <static>true</static>
+      <pose>-2 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_47">
+      <static>true</static>
+      <pose>-3 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_48">
+      <static>true</static>
+      <pose>-3 -13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_49">
+      <static>true</static>
+      <pose>-3 -12 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_50">
+      <static>true</static>
+      <pose>-3 -11 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_51">
+      <static>true</static>
+      <pose>-3 -10 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_52">
+      <static>true</static>
+      <pose>-3 -9 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_53">
+      <static>true</static>
+      <pose>-3 -8 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_54">
+      <static>true</static>
+      <pose>-3 -7 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_55">
+      <static>true</static>
+      <pose>-3 -6 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_56">
+      <static>true</static>
+      <pose>-3 -5 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_57">
+      <static>true</static>
+      <pose>-3 -4 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_58">
+      <static>true</static>
+      <pose>-3 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_59">
+      <static>true</static>
+      <pose>-3 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_60">
+      <static>true</static>
+      <pose>-4 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_61">
+      <static>true</static>
+      <pose>-5 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_62">
+      <static>true</static>
+      <pose>-6 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_63">
+      <static>true</static>
+      <pose>-7 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_64">
+      <static>true</static>
+      <pose>-8 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_65">
+      <static>true</static>
+      <pose>-9 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_66">
+      <static>true</static>
+      <pose>-10 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_67">
+      <static>true</static>
+      <pose>-11 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_68">
+      <static>true</static>
+      <pose>-12 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_69">
+      <static>true</static>
+      <pose>-13 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_70">
+      <static>true</static>
+      <pose>-13 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_71">
+      <static>true</static>
+      <pose>-13 -2 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_72">
+      <static>true</static>
+      <pose>-13 -1 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_73">
+      <static>true</static>
+      <pose>-13 0 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_74">
+      <static>true</static>
+      <pose>-13 1 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_75">
+      <static>true</static>
+      <pose>-13 2 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_76">
+      <static>true</static>
+      <pose>-13 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_77">
+      <static>true</static>
+      <pose>-13 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_78">
+      <static>true</static>
+      <pose>-12 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_79">
+      <static>true</static>
+      <pose>-11 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_80">
+      <static>true</static>
+      <pose>-10 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_81">
+      <static>true</static>
+      <pose>-9 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_82">
+      <static>true</static>
+      <pose>-8 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_83">
+      <static>true</static>
+      <pose>-7 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_84">
+      <static>true</static>
+      <pose>-6 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_85">
+      <static>true</static>
+      <pose>-5 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_86">
+      <static>true</static>
+      <pose>-4 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_87">
+      <static>true</static>
+      <pose>-3 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_88">
+      <static>true</static>
+      <pose>-3 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_89">
+      <static>true</static>
+      <pose>-3 4 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_90">
+      <static>true</static>
+      <pose>-3 5 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_91">
+      <static>true</static>
+      <pose>-3 6 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_92">
+      <static>true</static>
+      <pose>-3 7 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_93">
+      <static>true</static>
+      <pose>-3 8 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_94">
+      <static>true</static>
+      <pose>-3 9 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_95">
+      <static>true</static>
+      <pose>-3 10 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_96">
+      <static>true</static>
+      <pose>-3 11 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_97">
+      <static>true</static>
+      <pose>-3 12 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_98">
+      <static>true</static>
+      <pose>-3 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_99">
+      <static>true</static>
+      <pose>-3 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_100">
+      <static>true</static>
+      <pose>-2 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_101">
+      <static>true</static>
+      <pose>-1 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_102">
+      <static>true</static>
+      <pose>0 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_103">
+      <static>true</static>
+      <pose>1 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_104">
+      <static>true</static>
+      <pose>2 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_105">
+      <static>true</static>
+      <pose>3 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_106">
+      <static>true</static>
+      <pose>3 13 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_107">
+      <static>true</static>
+      <pose>3 12 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_108">
+      <static>true</static>
+      <pose>3 11 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_109">
+      <static>true</static>
+      <pose>3 10 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_110">
+      <static>true</static>
+      <pose>3 9 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_111">
+      <static>true</static>
+      <pose>3 8 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_112">
+      <static>true</static>
+      <pose>3 7 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_113">
+      <static>true</static>
+      <pose>3 6 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_114">
+      <static>true</static>
+      <pose>3 5 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_115">
+      <static>true</static>
+      <pose>3 4 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="cube_116">
+      <static>true</static>
+      <pose>3 3 0.5 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>10000</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+  <actor name="actor1">
+      <pose>1.720106840133667 -11.752969741821289 1.0 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor1_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor1</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>1.720106840133667 -11.752969741821289 1.0</waypoint>
+          <waypoint>1.8723856210708618 1.8723856210708618 1.0</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+  <actor name="actor2">
+      <pose>-1.7774580717086792 -11.752312660217285 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor2_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor2</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-1.7774580717086792 -11.752312660217285 1</waypoint>
+          <waypoint>-1.7774580717086792 11.752312660217285 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+  <actor name="actor3">
+      <pose>-11.816411972045898 -1.5181435346603394 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor3_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor3</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-11.816411972045898 -1.5181435346603394 1</waypoint>
+          <waypoint>11.816411972045898 -1.5181435346603394 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+  <actor name="actor4">
+      <pose>-11.816411972045898 1.5181435346603394 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor4_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor4</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-11.816411972045898 1.5181435346603394 1</waypoint>
+          <waypoint>11.816411972045898 1.5181435346603394 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+  <actor name="actor5">
+      <pose>-0.02794879674911499 6.143150329589844 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor5_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor5</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-0.02794879674911499 6.143150329589844 1</waypoint>
+          <waypoint>-6.518152713775635 -0.2668944001197815 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+  <actor name="actor6">
+      <pose>6.5547943115234375 -0.009476006031036377 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor6_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor6</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>6.5547943115234375 -0.009476006031036377 1</waypoint>
+          <waypoint>0.004635632038116455 -6.5547943115234375 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor7">
+      <pose>7 1.5 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor7_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor7</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>7 1.5 1</waypoint>
+          <waypoint>0 -2 1</waypoint>
+          <waypoint>-1.5 7 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor8">
+      <pose>1.5 -7 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor8_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor8</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>1.5 -7  1</waypoint>
+          <waypoint>-2 0 1</waypoint>
+          <waypoint>-7 1.5 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor9">
+      <pose>-7 -1.5 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor9_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor9</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-7 -1.5 1</waypoint>
+          <waypoint>-2 0 1</waypoint>
+          <waypoint>1.5 7 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor10">
+      <pose>-1.5 7 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor10_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor10</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-1.5 7 1</waypoint>
+          <waypoint>0 2 1</waypoint>
+          <waypoint>7 -1.5 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor11">
+      <pose>-2 5 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor11_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor11</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-2 5 1</waypoint>
+          <waypoint>2 -5 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor12">
+      <pose>2 5 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor12_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor12</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>2 5 1</waypoint>
+          <waypoint>-2 -5 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor>
+
+    <actor name="actor13">
+      <pose>5 2 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor13_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor13</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>5 2 1</waypoint>
+          <waypoint>-5 -2 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor> 
+
+    <actor name="actor14">
+      <pose>5 -2 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor14_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor14</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>5 -2 1</waypoint>
+          <waypoint>-5 2 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor> 
+
+    <actor name="actor15">
+      <pose>0 1.5 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor15_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor15</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>0 1.5 1</waypoint>
+          <waypoint>-2 -3 1</waypoint>
+          <waypoint>3 0 1</waypoint>
+          <waypoint>-3 0 1</waypoint>
+          <waypoint>2 -3 1</waypoint>
+          <waypoint>0 1.5 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor> 
+
+
+    <actor name="actor17">
+      <pose>-4 2 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename> <!--run.dae-->
+        <scale>1.0</scale>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+        <scale>1.000000</scale>
+        <interpolate_x>true</interpolate_x>
+      </animation>
+
+      <plugin name="actor17_plugin" filename="libPedestrianSFMPlugin.so">
+        <velocity>1.0</velocity>
+        <radius>0.4</radius>
+        <animation_factor>5.1</animation_factor>
+        <people_distance>6.0</people_distance>
+        <goal_weight>2.0</goal_weight>
+        <obstacle_weight>80.0</obstacle_weight>
+        <social_weight>15.0</social_weight> <!--2.1-->
+        <group_gaze_weight>3.0</group_gaze_weight>
+        <group_coh_weight>2.0</group_coh_weight>
+        <group_rep_weight>1.0</group_rep_weight>
+        <group>
+            <model>actor17</model>
+        </group>
+        <ignore_obstacles>
+          <model>cafe</model>
+          <model>ground_plane</model>
+        </ignore_obstacles>
+        <trajectory>
+          <cyclic>true</cyclic>
+          <waypoint>-4 2 1</waypoint>
+          <waypoint>0 0 1</waypoint>
+          <waypoint>4 2 1</waypoint>
+          <waypoint>0 0 1</waypoint>
+          <waypoint>4 -2 1</waypoint>
+          <waypoint>0 0 1</waypoint>
+          <waypoint>-4 -2 1</waypoint>
+          <waypoint>0 0 1</waypoint>
+          <waypoint>-4 2 1</waypoint>
+        </trajectory>
+      </plugin>
+    </actor> 
+
+
+
+  </world>
+</sdf>
